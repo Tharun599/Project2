@@ -35,3 +35,19 @@ header a {
   font-size: 1.2rem;
   transition: color 0.3s;
 }
+
+header a:hover {
+  color: #3498db;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #3498db;
+}
