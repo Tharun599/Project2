@@ -115,3 +115,19 @@ figcaption {
   margin-top: 0.5rem;
   color: #555;
 }
+
+@media screen and (max-width: 850px) {
+  main:has(#about) {
+    width: 95%;
+    padding: 1rem;
+  }
+  
+  header ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header li {
+    margin: 0.5rem 0;
+  }
+}
