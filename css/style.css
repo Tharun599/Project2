@@ -88,14 +88,14 @@ main:not(:has(#about)) {
 main:has(#about) {
   width: 800px;
   margin: 2rem auto;
-  background: white;
+  background: rgb(240, 233, 212);
   padding: 2rem;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
   border-radius: 0.5rem;
 }
 
 main > div {
-  background: white;
+  background: rgb(232, 221, 193);
   padding: 1.5rem;
   border-radius: 0.5rem;
   border-left: 0.5rem solid #3498db;
@@ -104,7 +104,7 @@ main > div {
 figure {
   margin: 1.5rem 0;
   padding: 1rem;
-  background: #eef2f5;
+  background: #d2dee8;
   border-radius: 0.5rem;
   text-align: center;
 }
